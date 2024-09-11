@@ -1,7 +1,7 @@
 #IBDesignableControls
 
-* This package contains the UIView extension and you can use the proeprties of the UIControls directly from the storyboard once you install this package.
-  Just take any UIControl element like UILabel, UIButton, UIImageView, etc. and check the Attributed inspector.
+* This package is available from iOS 13 and contains the UIView extension that provides you the proeprties of the UIControls directly from the storyboard once you install this package.
+* For usage you need to take any UIControl element like UILabel, UIButton, UIImageView, etc. and check the Attributed inspector.
 
 #Below are the properties to access directly from Storyboard
 
