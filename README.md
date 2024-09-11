@@ -31,6 +31,6 @@
 * **Here if you can set either full shadow, only top or only bottom shadow.**
   - To set only top shadow you need to change value of shadow top property to **'on'** and same way you need to change value of shadow bottom property to **'on'** for only bottom shadow.
   
-Here is an example of only top shadow property:
+Here is an example of setting only top shadow property:
 
 ![Screenshot 2024-09-11 at 5 02 33 PM](https://github.com/user-attachments/assets/f37f16f6-d400-42cc-ab40-77c6d61c21ac)
