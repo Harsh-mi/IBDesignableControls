@@ -1,17 +1,17 @@
-#IBDesignableControls
+# IBDesignableControls
 
 * This package is available from iOS 13 and contains the UIView extension that provides you the proeprties of the UIControls directly from the storyboard once you install this package.
 * For usage you need to take any UIControl element like UILabel, UIButton, UIImageView, etc. and check the Attributed inspector.
 
-#Below are the properties to access directly from Storyboard
+# Below are the properties to access directly from Storyboard
 
 ![Screenshot 2024-09-11 at 4 49 21 PM](https://github.com/user-attachments/assets/55a21537-fc1a-4e72-bee2-c09a1bef8bbf)
 
-##Border properties:
+## Border properties:
 - Border color
 - Border width
 
-##Corner radius properties:
+## Corner radius properties:
  - Corner radius
  - Only top corner radius
  - Only left corner radius
@@ -20,7 +20,7 @@
 
 * **Here if you can set either full conrner radius or just top, right, left and bottom corner radius at a time if you set both then it will take full corner radius value by default.**
 
-##Shadow Properties:
+## Shadow Properties:
  - Shadow color
  - Shadow radius
  - Shadow opacity
