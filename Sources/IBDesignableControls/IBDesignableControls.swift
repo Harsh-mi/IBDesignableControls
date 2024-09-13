@@ -36,6 +36,21 @@ public extension UIView {
         }
     }
     
+    @IBInspectable var customBackgroundColor: UIColor? {
+            get {
+                guard let bgColor = layer.backgroundColor else { return nil }
+                return UIColor(cgColor: bgColor)
+            }
+            set {
+                // Apply background color
+                layer.backgroundColor = newValue?.cgColor
+                // Apply corner radius when background color is set
+                if let _ = newValue {
+                    layer.masksToBounds = cornerRadius > 0
+                }
+            }
+        }
+    
     @IBInspectable var topLeftRadius: CGFloat {
         get {
             return _topLeftRadius
